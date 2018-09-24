@@ -1,34 +1,24 @@
 body {
-    Margin: 0;
-    background-color: #fff;
+    /*Margin: 5px 120px 0px;*/
+    background-color: #ffffff;
     padding-top: 0;
+    color: #6d0000;
 }
 
-nav {
-  width: 28%;
-  overflow: hidden;
-  float: right;
-  background-color: #c11730;
+h1 {
+  font-size: 2em;
 }
 
-nav ul {
-  width: 600px;
-  margin: auto;
-  display: block;
-  list-style-type: none;
+h2 {
+  
 }
 
-nav ul li {
-  width: 15%;
-  float: left;
-  overflow: auto;
-  text-align: center;
-}
-
-nav a {
+p {
+  font-size: 20px;
   color: #000;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  display: block;
-  text-decoration: none;
 }
+
+main {
+  
+}
+

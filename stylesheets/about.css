@@ -1,0 +1,96 @@
+.about {
+  margin: 0px 150px 0px;
+}
+
+.abouttext {
+  width: 70%;
+  text-align: left;
+  border-bottom: solid 2px #eaeaea;
+}
+
+.aboutpicarea {
+  width: 70%;
+  text-align: center;
+}
+
+.graduationpic {
+  float: right;
+  width: 270px;
+  height: auto;  
+  border: solid 1px #000;
+}
+
+.macworkstation {
+  width: 100%;
+  
+  border: solid 1px #000;
+  text-align: center;
+}
+
+
+
+
+
+.skillbar {
+  width: 100%;
+  background-color: #eaeaea;
+}
+
+.htmlbar {
+  width: 90%;
+  height: 30px;
+  background-color: #5daf60;
+  text-align: left;
+  line-height: 30px;
+  color: #fff;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  
+}
+
+.phpbar {
+  width: 60%;
+  height: 30px;
+  background-color: #5daf60;
+  text-align: left;
+  line-height: 30px;
+  color: #fff;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.cssbar {
+   width: 85%;
+  height: 30px;
+  background-color: #5daf60;
+  text-align: left;
+  line-height: 30px;
+  color: #fff;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.jsbar {
+ width: 50%;
+  height: 30px;
+  background-color: #5daf60;
+  text-align: left;
+  line-height: 30px;
+  color: #fff;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.sqlbar {
+  width: 60%;
+  height: 30px;
+  background-color: #5daf60;
+  text-align: left;
+  line-height: 30px;
+  color: #fff;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+
+

@@ -1,0 +1,55 @@
+.top {
+    Margin: 5px 120px 0px;
+    border-bottom: solid 2px #eaeaea;
+}
+.headerinfo{
+  /*padding: 10px 0px 5px 50px;*/
+  box-shadow: 0px 2px #eaeaea;
+  
+}
+
+.contactinfo {
+  color: #6d0000;
+}
+
+.fa-envelope {
+  padding-right: 10px;
+  color: #6d0000;
+}
+
+.fa-phone {
+  padding-right: 10px;
+  padding-left: 20px;
+  color: #6d0000;
+}
+
+.socialmedialink {
+  float: right;
+}
+
+.fa-linkedin {
+  color: #6d0000;
+  padding-right: 10px;
+}
+
+.fa-github {
+  color: #6d0000;
+}
+
+
+header {
+  /*background-color: #6d0000;*/
+  /*border: solid 2px #000000;*/
+  padding: 20px 0px 20px;
+}
+
+section {
+  color: #6d0000;
+  font-size: 3em;
+  text-align: left;
+  
+}
+
+.headerslogan {
+    font-size: 14px;
+}

@@ -5,7 +5,7 @@ if (isset($_GET['page'])) {
 	require 'pages/' .$_GET['page'].	'.php';
 }
 else {
-	require 'pages/home.php';
+	require 'pages/about.php';
 }
 
 $templateVars = [
