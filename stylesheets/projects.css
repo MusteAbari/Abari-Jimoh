@@ -1,0 +1,21 @@
+.project {
+  margin: 0px 150px 0px;
+}
+
+.projectpic {
+    width: 70%    
+}
+
+.projecttext {
+  width: 70%;
+  text-align: left;
+  border-bottom: solid 2px #eaeaea;
+}
+
+
+.teeshowcs {
+    width: 100%;
+    height: auto;
+    border: solid 2px #000;
+}
+

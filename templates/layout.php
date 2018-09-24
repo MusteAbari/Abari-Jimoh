@@ -20,7 +20,7 @@
 	   			<a href="https://www.linkedin.com/in/Mustapha-abari-jimoh" class="fa fa-github"></a>
 	   		</div>
 	   		<div class="contactinfo">
-	   			<i class="fa fa-envelope" style="font-size:16px"></i>M.abari@htomail.co.uk
+	   			<i class="fa fa-envelope" style="font-size:16px"></i>M.abarijimoh@gmail.com
 				<i class="fa fa-phone" style="font-size:16px"></i>07487864410<br>
 	   		</div>
 	   	</div>

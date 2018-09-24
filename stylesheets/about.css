@@ -22,14 +22,10 @@
 
 .macworkstation {
   width: 100%;
-  
+  height: auto;
   border: solid 1px #000;
   text-align: center;
 }
-
-
-
-
 
 .skillbar {
   width: 100%;
