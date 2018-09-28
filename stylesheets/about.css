@@ -1,16 +1,18 @@
-.about {
-  margin: 0px 150px 0px;
+/*.about {*/
+/*  margin: 0px 150px 0px;*/
+/*}*/
+
+
+
+.aboutpicarea {
+  width: 70%;
+  text-align: center;
 }
 
 .abouttext {
   width: 70%;
   text-align: left;
   border-bottom: solid 2px #eaeaea;
-}
-
-.aboutpicarea {
-  width: 70%;
-  text-align: center;
 }
 
 .graduationpic {
@@ -27,6 +29,14 @@
   text-align: center;
 }
 
+.webdevpic{
+  width: 170px;
+  height: auto;
+  border: solid 1px #000;
+  float: left;
+  margin: 0px 10px 10px 0px;
+}
+
 .skillbar {
   width: 100%;
   background-color: #eaeaea;
@@ -41,7 +51,6 @@
   color: #fff;
   margin-bottom: 10px;
   padding-left: 10px;
-  
 }
 
 .phpbar {

@@ -32,19 +32,19 @@
             </div>
         <div class="container grid-3 center">
             <div class="aboutlink">
-            	<a href="/index.php">
+            	<a href="/about">
                 <i class="fas fa-id-card fa-3x"></i>
                 <h3>About</h3>
                 </a>
              </div>   
             <div class="projectslink">
-            	<a href="/index.php">
+            	<a href="/projects">
                 <i class="fas fa-suitcase fa-3x"></i>
                 <h3>Projects</h3>
                 </a>
             </div>
             <div class="contactlink">
-            	<a href="/index.php">
+            	<a href="/contact">
                 <i class="fas fa-phone-square fa-3x"></i>
                 <h3>Contact</h3>
                 </a>
@@ -63,7 +63,7 @@
                     <p>	Graduated from The University of Northampton where I developed a passion for Web Development.
         				I learnt to be an outstanding problem solver which helps me tackle business problems using a variety of different programming languages and softwares.
         				Such as HTML, CSS, PHP, Javascript and SQL.</p>
-        			    <a href="/index.php" class="btn">Read More</a>
+        			    <a href="/about" class="btn">Read More</a>
                 </div>
             </div>
         </div>

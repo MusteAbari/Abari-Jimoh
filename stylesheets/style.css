@@ -2,21 +2,25 @@ body {
     /*Margin: 5px 120px 0px;*/
     background-color: #ffffff;
     padding-top: 0;
-    color: #6d0000;
+    color: #000;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h1 {
-  font-size: 2em;
-}
+/*h1 {*/
+  /*font-size: 40px;*/
+/*  color: #000;*/
+/*}*/
 
-h2 {
-  
-}
 
-p {
-  font-size: 20px;
-  color: #000;
-}
+/*h2 {*/
+  /*font-size: 32px;*/
+/*  color: #000;*/
+/*}*/
+
+/*p {*/
+/*  font-size: 16px;*/
+/*  color: #000;*/
+/*}*/
 
 main {
   

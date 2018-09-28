@@ -10,7 +10,7 @@
 		<!--<link rel="stylesheet" href="/stylesheets/style.css"/ media="screen and (min-width: 1000px)">-->
 		<?php require 'stylesheet.php'; ?> 
 
-    <title><?php echo $title; ?></title>
+    	<title><?php echo $title; ?></title>
 	</head>
 	<body>
 	 <div class="top">	
@@ -25,17 +25,20 @@
 	   		</div>
 	   	</div>
 	   <header>
-		<?php
-    		require 'templates/nav.php';
-     	?>
 		<section>
-			MUSTAPHA ABARI-JIMOH
-			<p class="headerslogan">SIMPLICITY IS KEY</p>
+			<div class="title">
+				<a href="/home.php">MUSTAPHA ABARI-JIMOH</a>
+			</div>
+			<div class="solgan">
+				SIMPLICITY IS KEY
+			</div>
 		</section>
+			<?php
+    			require 'templates/nav.php';
+     		?>
 	   </header>
 	 </div>  
-     
-
+	 
       <?php echo $content; ?>
 
 	  <footer>
