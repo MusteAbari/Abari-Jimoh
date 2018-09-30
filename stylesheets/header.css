@@ -1,8 +1,4 @@
-.top {
-  margin: 5px 120px 10px;
-}
 .headerinfo{
-  /*padding: 10px 0px 5px 50px;*/
   box-shadow: 0px 2px #eaeaea;
 }
 
@@ -35,29 +31,67 @@
 }
 
 
-header {
-  /*background-color: #6d0000;*/
-  /*border: solid 2px #000000;*/
-  padding-top: 20px;
-}
+/*header {*/
+/*  background-color: #6d0000;*/
+/*  border: solid 2px #000000;*/
+/*  padding-top: 20px;*/
+/*}*/
 
-section {
-  /*color: #6d0000;*/
-  /*font-size: 3em;*/
-  /*text-align: left;*/
+/*section {*/
+/*  color: #6d0000;*/
+/*  font-size: 3em;*/
+/*  text-align: left;*/
+/*}*/
+
+/*.title {*/
+  
+/*}*/
+
+/*.title a {*/
+/*  text-decoration: none;*/
+/*  color: #000;*/
+/*}*/
+
+/*.slogan {*/
+/*  color: #000;*/
+/*  font-size: 1em;*/
+/*}*/
+
+.top-container {
+  margin-top: 10px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr;
 }
 
 .title {
-  
+  background: var(--primary);
+  min-height: 150px;
+  padding: 3rem;
+  box-shadow: var(--shadow);
 }
 
 .title a {
-  text-decoration: none;
   color: #000;
+  text-decoration: none;
+  font-size: 3rem;
+  margin-bottom: 0;
+  color: var(--dark);
+  position: relative;
+  animation: titlename;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
 }
 
-.slogan {
-  color: #000;
-  font-size: 1em;
+@keyframes titlename {
+    0% {top: -60px}
+    100% {top: 10px}
+}
+
+
+.title p {
+  margin-top: 0px;
+  font-size: 1rem;
+  color: var(--dark);
 }
 

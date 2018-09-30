@@ -15,8 +15,8 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     display: block;
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
     transition: all 1000ms;
 }
 

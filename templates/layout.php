@@ -13,7 +13,6 @@
     	<title><?php echo $title; ?></title>
 	</head>
 	<body>
-	 <div class="top">	
 	   <div class="headerinfo">
 	   		<div class="socialmedialink">
 	   			<a href="https://www.linkedin.com/in/Mustapha-abari-jimoh" class="fa fa-linkedin"></a>
@@ -24,26 +23,24 @@
 				<i class="fa fa-phone" style="font-size:16px"></i>07487864410<br>
 	   		</div>
 	   	</div>
-	   <header>
-		<section>
-			<div class="title">
-				<a href="/home.php">MUSTAPHA ABARI-JIMOH</a>
-			</div>
-			<div class="solgan">
-				SIMPLICITY IS KEY
-			</div>
-		</section>
+	<div class="wrapper">	
+	 
+	 <section class="">
+	 	<header class="title">
+	 		<h1><a href="/home.php">MUSTAPHA ABARI-JIMOH</a></h1>
+	 		<p>Problems are hidden opportunities</p>
+	 	</header>
+	 </section>
 			<?php
     			require 'templates/nav.php';
      		?>
-	   </header>
-	 </div>  
+	 
 	 
       <?php echo $content; ?>
 
 	  <footer>
 		   WEBSITE DESIGNED BY MUSTAPHA ABARI-JIMOH
 	  </footer>
-
+</div>
 </body>
 </html>

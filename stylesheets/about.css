@@ -4,38 +4,87 @@
 
 
 
-.aboutpicarea {
-  width: 70%;
+/*.aboutpicarea {*/
+/*  width: 70%;*/
+/*  text-align: center;*/
+/*}*/
+
+/*.abouttext {*/
+/*  width: 70%;*/
+/*  text-align: left;*/
+/*  border-bottom: solid 2px #eaeaea;*/
+/*}*/
+
+/*.graduationpic {*/
+/*  float: right;*/
+/*  width: 270px;*/
+/*  height: auto;  */
+/*  border: solid 1px #000;*/
+/*}*/
+
+/*.macworkstation {*/
+/*  width: 100%;*/
+/*  height: auto;*/
+/*  border: solid 1px #000;*/
+/*  text-align: center;*/
+/*}*/
+
+/*.webdevpic{*/
+/*  width: 170px;*/
+/*  height: auto;*/
+/*  border: solid 1px #000;*/
+/*  float: left;*/
+/*  margin: 0px 10px 10px 0px;*/
+/*}*/
+
+
+.about {
+  background: var(--primary);
+  box-shadow: var(--shadow);
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 1fr;
+  padding: 1rem;
   text-align: center;
 }
 
-.abouttext {
-  width: 70%;
-  text-align: left;
-  border-bottom: solid 2px #eaeaea;
+.about h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0;
+  color: var(--dark);
 }
 
-.graduationpic {
-  float: right;
-  width: 270px;
-  height: auto;  
-  border: solid 1px #000;
+.about p {
+  font-size: 1rem;
 }
 
-.macworkstation {
+
+.frontend {
+  background: var(--primary);
+  box-shadow: var(--shadow);
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 2rem;
+}
+
+.webdevpic {
+  border: solid 0.1rem #000;
   width: 100%;
   height: auto;
-  border: solid 1px #000;
-  text-align: center;
 }
 
-.webdevpic{
-  width: 170px;
-  height: auto;
-  border: solid 1px #000;
-  float: left;
-  margin: 0px 10px 10px 0px;
+.myarea {
+  background: var(--primary);
+  box-shadow: var(--shadow);
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 2rem;
 }
+
+
+
 
 .skillbar {
   width: 100%;
