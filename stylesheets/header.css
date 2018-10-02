@@ -105,3 +105,12 @@
 
 }
 
+@media(max-width: 800px) {
+  .logo {
+  display: none;
+}
+
+.top-container {
+        grid-template-columns: 1fr;
+    }
+}
