@@ -94,13 +94,13 @@
   display: none;
 }
 
-/*.top-container {*/
-/*        grid-template-columns: 1fr;*/
-/*    }*/
+.top-container {
+        grid-template-columns: 1fr;
+    }
 
 
 .logo {
-  left: 50%;
+  display: none;
 }
 
 }
