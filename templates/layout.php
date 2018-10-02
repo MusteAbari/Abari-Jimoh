@@ -25,16 +25,16 @@
 	   	</div>
 	<div class="wrapper">	
 	 
-	 <section class="">
+	 <section class="top-container">
 	 	<header class="title">
-	 		<h1><a href="/home.php">MUSTAPHA ABARI-JIMOH</a></h1>
+	 		<h1><a href="index.php">MUSTAPHA ABARI-JIMOH</a></h1>
 	 		<p>Problems are hidden opportunities</p>
 	 	</header>
+	 	<a href="index.php"><img src="images/a-jlogo.png" class="logo"></a>
 	 </section>
 			<?php
     			require 'templates/nav.php';
      		?>
-	 
 	 
       <?php echo $content; ?>
 

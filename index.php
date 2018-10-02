@@ -16,7 +16,7 @@
 	<body>
 	<header class="showcase">
 		<div class="content">
-            <!--<img src="abari-jimohlogo.png" class="logo" alt="Mustapha">-->
+        <a href="index.php"><img src="images/a-jlogo.png" class="logo" alt=""></a>
             <div class="title">
                 </h1>Mustapha<br> Abari-Jimoh
             </div>
@@ -60,10 +60,11 @@
                 </div>
                 <div>
                     <h3>About Mustapha</h3>
-                    <p>	Graduated from The University of Northampton where I developed a passion for Web Development.
-        				I learnt to be an outstanding problem solver which helps me tackle business problems using a variety of different programming languages and softwares.
-        				Such as HTML, CSS, PHP, Javascript and SQL.</p>
-        			    <a href="/#" class="btn">Read More</a>
+                    <p>	Graduated from The University of Northampton where I furthered my passion for web development. 
+                    I learnt to be an exceptional problem solver which helps me 
+                    tackle business problems using a variety of different programming languages and softwares.<br> 
+                    Such as HTML, CSS, PHP, Javascript and SQL.</p>
+        			    <a href="/about" class="btn">Read More</a>
                 </div>
             </div>
         </div>

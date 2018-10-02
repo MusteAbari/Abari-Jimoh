@@ -53,3 +53,16 @@
   width: 100%;
   height: auto;
 }
+
+/* Media Queries */
+@media(max-width: 700px) {
+    .project h1 {
+        font-size: 2rem;
+    }
+
+    .projectarea {
+        grid-template-columns: 1fr;
+    }
+    
+
+}

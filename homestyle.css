@@ -10,7 +10,7 @@ body {
     height: 100vh;
     width: 100%;
     color: #fff;
-    background-image: url(images/homepic.png);
+    background-image: url(images/whitewall.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -38,7 +38,7 @@ body {
     z-index: 1;
     top: 10%;
     left: 50%;
-    margin-top: 105px;
+    /*margin-top: 105px;*/
     margin-left: -145px;
     width: 300px;
     height: 350px;
@@ -46,14 +46,26 @@ body {
     transition: all 1000ms;
 }
 
-.content logo {
-    height: 180px;
-    width: 180px;
+.content .logo {
+    height: 300px;
+    position: relative;
+    /*top: -50%;*/
+    /*border: solid 1px #000;*/
+    animation: logo;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
 }
 
+@keyframes logo {
+    0% {opacity: 0}
+    50% {opacity: 0}
+    100% {opacity: 1}
+}
+
+
 .content .title {
-    font-size: 2.2rem;
-    margin-top: 1rem;
+    font-size: 3rem;
+    /*margin-top: 1rem;*/
     position: relative;
     animation: heading;
     animation-duration: 3s;
@@ -63,12 +75,12 @@ body {
 
 @keyframes heading {
     0% {top: -300px}
-    100% {top: 10px}
+    100% {top: -10px}
 }
 
 .content .text {
     line-height: 1.7;
-    margin-top:1rem;
+    /*margin-top:1rem;*/
     position: relative;
     animation-name: content;
     animation-duration: 3s;
@@ -188,7 +200,11 @@ footer p {
         height: 140px;
         width: 140px;
     }
-
+    
+    .content .title {
+        font-size: 2rem;
+    }
+    
     .content .text {
         display: none;
     }
@@ -199,7 +215,7 @@ footer p {
     }
 
     .services div {
-        border-bottom: #000 dashed 1px;
+        border-bottom: #000 dashed .5px;
         padding: 1.2rem 1rem;
     }
 }
@@ -214,4 +230,13 @@ footer p {
     .content {
         top: 0;
     }
+    
+    .content .logo {
+    animation-duration: 3s;
+}
+    
+    @keyframes logo {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
 }
